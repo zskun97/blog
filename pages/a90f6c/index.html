@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Docker | 跳跳猪</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/logo.jpg">
+    <meta name="description" content="吃得好，睡得好">
+    
+    <link rel="preload" href="/assets/css/0.styles.542f065b.css" as="style"><link rel="preload" href="/assets/js/app.9ac200f5.js" as="script"><link rel="preload" href="/assets/js/2.f08c2e94.js" as="script"><link rel="preload" href="/assets/js/68.46eb6539.js" as="script"><link rel="prefetch" href="/assets/js/10.104e03e5.js"><link rel="prefetch" href="/assets/js/11.18d17b89.js"><link rel="prefetch" href="/assets/js/12.31c398a8.js"><link rel="prefetch" href="/assets/js/13.b5ee2d7d.js"><link rel="prefetch" href="/assets/js/14.a60f524e.js"><link rel="prefetch" href="/assets/js/15.55fd61b8.js"><link rel="prefetch" href="/assets/js/16.7aa17999.js"><link rel="prefetch" href="/assets/js/17.24758699.js"><link rel="prefetch" href="/assets/js/18.0b71a4f7.js"><link rel="prefetch" href="/assets/js/19.4770b075.js"><link rel="prefetch" href="/assets/js/20.fe4d448c.js"><link rel="prefetch" href="/assets/js/21.6ef119a3.js"><link rel="prefetch" href="/assets/js/22.68798857.js"><link rel="prefetch" href="/assets/js/23.a8a337ba.js"><link rel="prefetch" href="/assets/js/24.c156d0fe.js"><link rel="prefetch" href="/assets/js/25.b840f4b8.js"><link rel="prefetch" href="/assets/js/26.37c5f756.js"><link rel="prefetch" href="/assets/js/27.5b776d07.js"><link rel="prefetch" href="/assets/js/28.4d89a988.js"><link rel="prefetch" href="/assets/js/29.d8405b8b.js"><link rel="prefetch" href="/assets/js/3.98efb80c.js"><link rel="prefetch" href="/assets/js/30.67c25a87.js"><link rel="prefetch" href="/assets/js/31.cd45304b.js"><link rel="prefetch" href="/assets/js/32.b0bff8a4.js"><link rel="prefetch" href="/assets/js/33.b8e0beb7.js"><link rel="prefetch" href="/assets/js/34.eedead55.js"><link rel="prefetch" href="/assets/js/35.44fef23e.js"><link rel="prefetch" href="/assets/js/36.3e7830e5.js"><link rel="prefetch" href="/assets/js/37.8f711bb3.js"><link rel="prefetch" href="/assets/js/38.3b7df8b6.js"><link rel="prefetch" href="/assets/js/39.a7dfb50c.js"><link rel="prefetch" href="/assets/js/4.2e894fd2.js"><link rel="prefetch" href="/assets/js/40.ba597a3a.js"><link rel="prefetch" href="/assets/js/41.0955ce39.js"><link rel="prefetch" href="/assets/js/42.b1629e72.js"><link rel="prefetch" href="/assets/js/43.606f57ec.js"><link rel="prefetch" href="/assets/js/44.5e8f4801.js"><link rel="prefetch" href="/assets/js/45.fc255c2f.js"><link rel="prefetch" href="/assets/js/46.9222248d.js"><link rel="prefetch" href="/assets/js/47.d6bf833e.js"><link rel="prefetch" href="/assets/js/48.40e23b48.js"><link rel="prefetch" href="/assets/js/49.ba7c2b8d.js"><link rel="prefetch" href="/assets/js/5.d2ef2a1a.js"><link rel="prefetch" href="/assets/js/50.487406c6.js"><link rel="prefetch" href="/assets/js/51.3f8ea397.js"><link rel="prefetch" href="/assets/js/52.acd66974.js"><link rel="prefetch" href="/assets/js/53.58c7fc05.js"><link rel="prefetch" href="/assets/js/54.0f8282f4.js"><link rel="prefetch" href="/assets/js/55.ad7bb205.js"><link rel="prefetch" href="/assets/js/56.590655d9.js"><link rel="prefetch" href="/assets/js/57.9a85aa7a.js"><link rel="prefetch" href="/assets/js/58.1b4ef9fd.js"><link rel="prefetch" href="/assets/js/59.9420c0ba.js"><link rel="prefetch" href="/assets/js/6.65a955fd.js"><link rel="prefetch" href="/assets/js/60.30009201.js"><link rel="prefetch" href="/assets/js/61.0047220f.js"><link rel="prefetch" href="/assets/js/62.a368a893.js"><link rel="prefetch" href="/assets/js/63.3315d70a.js"><link rel="prefetch" href="/assets/js/64.3e3c478f.js"><link rel="prefetch" href="/assets/js/65.80a47305.js"><link rel="prefetch" href="/assets/js/66.ae967862.js"><link rel="prefetch" href="/assets/js/67.606a99c5.js"><link rel="prefetch" href="/assets/js/69.c6067a0e.js"><link rel="prefetch" href="/assets/js/7.ed4f4e88.js"><link rel="prefetch" href="/assets/js/8.517c5e6e.js"><link rel="prefetch" href="/assets/js/9.bef30b40.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.542f065b.css">
+  </head>
+  <body class="theme-mode-light">
+    <div id="app" data-server-rendered="true"><div class="theme-container sidebar-open have-rightmenu have-body-img"><header class="navbar blur"><div title="目录" class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="https://excalidraw.com/apple-touch-icon.png" alt="跳跳猪" class="logo"> <span class="site-name can-hide">跳跳猪</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/md/java/JAVA基础.html" class="nav-link">JAVA</a></div><div class="nav-item"><a href="/md/database/mysql/MySql操作.html" class="nav-link">数据库</a></div><div class="nav-item"><a href="/md/opSystem/linux/linux操作笔记.html" class="nav-link">操作系统</a></div><div class="nav-item"><a href="/md/middleware/mq/消息队列.html" class="nav-link">中间件</a></div><div class="nav-item"><a href="/md/tool/docker/docker.html" class="nav-link">开发工具</a></div><div class="nav-item"><a href="/md/designPattern/" class="nav-link">设计模式</a></div><div class="nav-item"><a href="/md/netty/BIO、NIO、AIO.html" class="nav-link">netty</a></div><div class="nav-item"><a href="/md/DDD/小傅哥案例学习打卡/DDD抽奖系统学习打卡🚀 day 1.html" class="nav-link">DDD</a></div><div class="nav-item"><a href="/md/other/面试题.html" class="nav-link">other</a></div><div class="nav-item"><a href="/md/notes/" class="nav-link">测试</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="提示语" class="dropdown-title"><!----> <span class="title" style="display:;">测试下拉菜单</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/md/notes/" class="nav-link">菜单1</a></li><li class="dropdown-item"><!----> <a href="/md/notes/" class="nav-link">菜单2</a></li><li class="dropdown-item"><h4>多次菜单</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/md/notes/" class="nav-link">多级菜单1</a></li></ul></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar-hover-trigger"></div> <aside class="sidebar" style="display:none;"><!----> <nav class="nav-links"><div class="nav-item"><a href="/md/java/JAVA基础.html" class="nav-link">JAVA</a></div><div class="nav-item"><a href="/md/database/mysql/MySql操作.html" class="nav-link">数据库</a></div><div class="nav-item"><a href="/md/opSystem/linux/linux操作笔记.html" class="nav-link">操作系统</a></div><div class="nav-item"><a href="/md/middleware/mq/消息队列.html" class="nav-link">中间件</a></div><div class="nav-item"><a href="/md/tool/docker/docker.html" class="nav-link">开发工具</a></div><div class="nav-item"><a href="/md/designPattern/" class="nav-link">设计模式</a></div><div class="nav-item"><a href="/md/netty/BIO、NIO、AIO.html" class="nav-link">netty</a></div><div class="nav-item"><a href="/md/DDD/小傅哥案例学习打卡/DDD抽奖系统学习打卡🚀 day 1.html" class="nav-link">DDD</a></div><div class="nav-item"><a href="/md/other/面试题.html" class="nav-link">other</a></div><div class="nav-item"><a href="/md/notes/" class="nav-link">测试</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="提示语" class="dropdown-title"><!----> <span class="title" style="display:;">测试下拉菜单</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/md/notes/" class="nav-link">菜单1</a></li><li class="dropdown-item"><!----> <a href="/md/notes/" class="nav-link">菜单2</a></li><li class="dropdown-item"><h4>多次菜单</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/md/notes/" class="nav-link">多级菜单1</a></li></ul></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>开发工具</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/pages/a90f6c/" aria-current="page" class="active sidebar-link">Docker</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header level2"><a href="/pages/a90f6c/#docker安装" class="sidebar-link">docker安装</a></li><li class="sidebar-sub-header level2"><a href="/pages/a90f6c/#docker常用命令" class="sidebar-link">docker常用命令</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header level3"><a href="/pages/a90f6c/#获取镜像" class="sidebar-link">获取镜像</a></li><li class="sidebar-sub-header level3"><a href="/pages/a90f6c/#启动容器" class="sidebar-link">启动容器</a></li><li class="sidebar-sub-header level3"><a href="/pages/a90f6c/#进入容器" class="sidebar-link">进入容器</a></li><li class="sidebar-sub-header level3"><a href="/pages/a90f6c/#管理容器" class="sidebar-link">管理容器</a></li><li class="sidebar-sub-header level3"><a href="/pages/a90f6c/#导出容器" class="sidebar-link">导出容器</a></li><li class="sidebar-sub-header level3"><a href="/pages/a90f6c/#导入容器" class="sidebar-link">导入容器</a></li><li class="sidebar-sub-header level3"><a href="/pages/a90f6c/#保存镜像" class="sidebar-link">保存镜像</a></li><li class="sidebar-sub-header level3"><a href="/pages/a90f6c/#载入镜像" class="sidebar-link">载入镜像</a></li><li class="sidebar-sub-header level3"><a href="/pages/a90f6c/#容器互联" class="sidebar-link">容器互联</a></li></ul></li><li class="sidebar-sub-header level2"><a href="/pages/a90f6c/#镜像操作" class="sidebar-link">镜像操作</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header level3"><a href="/pages/a90f6c/#镜像更新" class="sidebar-link">镜像更新</a></li><li class="sidebar-sub-header level3"><a href="/pages/a90f6c/#镜像创建" class="sidebar-link">镜像创建</a></li><li class="sidebar-sub-header level3"><a href="/pages/a90f6c/#更新镜像tag" class="sidebar-link">更新镜像tag</a></li></ul></li><li class="sidebar-sub-header level2"><a href="/pages/a90f6c/#安装实例" class="sidebar-link">安装实例</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header level3"><a href="/pages/a90f6c/#安装es和kibana" class="sidebar-link">安装ES和kibana</a></li><li class="sidebar-sub-header level3"><a href="/pages/a90f6c/#安装nginx" class="sidebar-link">安装nginx</a></li><li class="sidebar-sub-header level3"><a href="/pages/a90f6c/#安装rocketmq" class="sidebar-link">安装RocketMQ</a></li></ul></li></ul></li></ul></section></li></ul> </aside> <div><main class="page"><div class="theme-vdoing-wrapper "><div class="articleInfo-wrap" data-v-06225672><div class="articleInfo" data-v-06225672><ul class="breadcrumbs" data-v-06225672><li data-v-06225672><a href="/" title="首页" class="iconfont icon-home router-link-active" data-v-06225672></a></li> <li data-v-06225672><span data-v-06225672>md</span></li><li data-v-06225672><span data-v-06225672>tool</span></li><li data-v-06225672><span data-v-06225672>docker</span></li></ul> <div class="info" data-v-06225672><!----> <div title="创建时间" class="date iconfont icon-riqi" data-v-06225672><a href="javascript:;" data-v-06225672>2022-10-28</a></div> <!----></div></div></div> <!----> <div class="content-wrapper"><div class="right-menu-wrapper"><div class="right-menu-margin"><div class="right-menu-title">目录</div> <div class="right-menu-content"></div></div></div> <h1><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAABKFJREFUSA3tVl1oFVcQnrMbrak3QUgkya1akpJYcrUtIqW1JvFBE9LiQ5v6JmJpolbMg32rVrhgoYK0QiMY6i9Y6EMaW5D+xFJaTYItIuK2Kr3+BJNwkxBj05sQY3b3nM6cs2dv9t7NT/vQJw/sndk5M/PNzJkzewGerP+pAmy+ON8lLzUJgA8ZYxYIYZmGYRnctDaWvJJAmTtfP1pvXsBCCPP8QFcCaRkZYACgDZFO4stNIcBCajEOlmmC9XpJ9bAGCaPaPmzPl32dvLSVu3BWCTQs0XQQ6g0DYgwLIoAZbBCdW/i+781o1VVlm/410mw4h06Y7bIPHNyWDyL4FHkX03Q8SrzNhZTZriieckWt7cL6MM85YcLpsi/7O9/iXFT6MswI0DmmpkSaJ0qLxFIm3+i1THHB3zmBH3PYx9CcykcLOeQVVa7QtdxTgQgEleX2AjHYfwA+2ddV77ruGoJUbhGDI09YSNXyMpUt5ylOzxgbUmtOp7NmbNt8v3arjTBfYELmLUV+M+nSawNNAUqpT3ClJWg5I3BLT+cGW/DXNGCa6tx1aakCGEigArTn4TDIPdrXXYKCZNrHLMCOEPvHBlLQ99s9eHB7EB6NTki73CVPQ2F5MSx/uRQixfmq7rK0wYD8w8E905bnPDfwoWs/rfv93NWN/ZfvwsLIU7A09gxECyISeGJkHAau98L97tuw7NXnoPyNF8FcYGLGKsOs0mN3OEyec9esGW/ZEl945dTP34wlR2FZVQWU1q0Cw8Tr7p+hgLLNL0FPxx/Q35mA8aEUrH6nCgwEl0tn7wUiZYJnNRh6DK4UH/k0lfyrsBKdPVv/AriGIQcEDQZ65LBAGe2Rzui9Ybjz7XUppz1/uKBbyVPGkN3ZAeC6hr0x7Nr38N5+EqkoOm17xpoqR9ohQF55ERSvr4Dkr3chNfC3DMzGJlNBElW8w9nsGQvhNGIzDkXzCg8cLK951xHsFBlTJspJNi3ZFIMF2AeDV3q8DNOB+YHi6QTrChDIWDBRi5U5f+ZMfJLu3ccrqxtdxk4SKH336LFxSmkqefwU5T8fhdSdQf9IVKD6aNiwI/hnmcAZ91isYMJIaCUCx9W098+LgruikeTqzqqxKPUwqJyCPJiyemVVZBOijDGjD38Os0jOiSPL1z3SPjXNANbiNPXAdzTfukjjuknNBbyz3nwgTd3AVFqUJ5hpHlq9MveLnWwttUfoygBmvVjuikxND3znrhsELnZk7k+OjIGxeNEkomyLVta0xxn+HZhjBc4YZ/AFjHjz9u3xRZl2BN4aq9nFwWh16IrQ1aHHEd3j1+4/dB9OtH4e29A2H1DyHQRmOSfQZ1Fy7MHBTGB6J/Djq6p3OxyO2cB+4Car7v/o3GXgfAkj23+x9ID1Teoamo/SXcbvSf2PX7Vc8DdCmE1vN9di+32P9/5YR3vLnhCVGUWBjEkr3yh4H8v9CzmsbdhzOKzsJKM90iFdaTMjRPhGVsakRvOaRidljo6H6G7j+ctrJpsP+4COhDIl0La2+FS4+5mlocBaXY5QnGZysIBYoeSsl5qQzrSj/cgNrfuEzlWBfwA+EjrZyWUvpAAAAABJRU5ErkJggg==">Docker<!----></h1> <!----> <div class="theme-vdoing-content content__default"><h1 id="docker"><a href="#docker" class="header-anchor">#</a> Docker</h1> <h2 id="docker安装"><a href="#docker安装" class="header-anchor">#</a> docker安装</h2> <p>1.卸载之前的docker</p> <div class="language- extra-class"><pre class="language-text"><code>yum remove docker \
+           docker-client \
+           docker-client-latest \
+           docker-common \
+           docker-latest \
+           docker-latest-logrotate \
+           docker-logrotate \
+           docker-engine
+</code></pre></div><p>2.下载依赖包</p> <div class="language- extra-class"><pre class="language-text"><code>yum install -y yum-utils
+</code></pre></div><p>3.设置下载地址</p> <div class="language- extra-class"><pre class="language-text"><code>yum-config-manager \
+    --add-repo \
+    https://download.docker.com/linux/centos/docker-ce.repo
+</code></pre></div><p>4.安装docker</p> <div class="language- extra-class"><pre class="language-text"><code>yum install docker-ce docker-ce-cli containerd.io
+</code></pre></div><p>5.启动docker</p> <div class="language- extra-class"><pre class="language-text"><code>systemctl start docker
+</code></pre></div><p>6.设置开机自启</p> <div class="language- extra-class"><pre class="language-text"><code>systemctl enable docker
+</code></pre></div><p>7.配置镜像加速</p> <div class="language- extra-class"><pre class="language-text"><code>mkdir -p /etc/docker
+
+tee /etc/docker/daemon.json &lt;&lt;-'EOF'
+{
+  &quot;registry-mirrors&quot;: [&quot;https://12wwwyap.mirror.aliyuncs.com&quot;]
+}
+EOF
+
+systemctl daemon-reload
+
+systemctl restart docker
+</code></pre></div><h2 id="docker常用命令"><a href="#docker常用命令" class="header-anchor">#</a> docker常用命令</h2> <h3 id="获取镜像"><a href="#获取镜像" class="header-anchor">#</a> 获取镜像</h3> <div class="language- extra-class"><pre class="language-text"><code>//搜索镜像
+docker search ubuntu
+//从仓库拉取镜像,如果不指定版本默认下载latest版本
+docker pull ubuntu
+</code></pre></div><h3 id="启动容器"><a href="#启动容器" class="header-anchor">#</a> 启动容器</h3> <div class="language- extra-class"><pre class="language-text"><code>docker run -it ubuntu /bin/bash
+-i: 交互式操作。
+-t: 终端。
+-d：后台运行
+ubuntu: ubuntu 镜像。
+/bin/bash：放在镜像名后的是命令，这里我们希望有个交互式 Shell，因此用的是 /bin/bash
+</code></pre></div><h3 id="进入容器"><a href="#进入容器" class="header-anchor">#</a> 进入容器</h3> <div class="language- extra-class"><pre class="language-text"><code>docker attach id   退出终端会导致容器停止
+docker exec -it 710 /bin/bash  进入该id容器，退出终端不会导致容器停止
+</code></pre></div><h3 id="管理容器"><a href="#管理容器" class="header-anchor">#</a> 管理容器</h3> <p>docker ps 查看进程</p> <p>docker ps -a 查看所有进程包括已停止的</p> <p>docker start CONTAINER ID 重启这个id的容器</p> <p>docker stop 停止某个容器</p> <p>docker rm -f redis 删除名为“redis”的容器, -f 可以强行删除正在运行的容器</p> <p>docker container prune 删除所有停止的容器</p> <p>docker port id 查看该id容器的所有端口</p> <p>docker top id 可以查看容器的进程</p> <p>docker images 查看下载的镜像</p> <p>docker rmi redis 删除镜像</p> <p>docker logs -f elasticsearch 查看elasticsearch容器的日志, -f 循环输出</p> <p>docker update redis –restart=always 容器自动启动</p> <p>docker run -p 6379:6379 –name redis -v /mydata/redis/data:/data -v /mydata/redis/conf/redis.conf:/etc/redis/redis.conf -d redis redis-server /etc/redis/redis.conf –requirepass “redis94264” 启动redis,并挂在相关的配置文件, 并设置密码redis94264</p> <p>docker run -p 3306:3306 –name mysql -v /mydata/mysql/log:/var/log/mysql -v /mydata/mysql/data:/var/lib/mysql -v /mydata/mysql/conf:/etc/mysql -e MYSQL_ROOT_PASSWORD=root -d mysql:5.7 启动mysql</p> <h3 id="导出容器"><a href="#导出容器" class="header-anchor">#</a> 导出容器</h3> <div class="language- extra-class"><pre class="language-text"><code>docker export 1e560fca3906 &gt; ubuntu.tar   把该容器快照导出到本地文件
+</code></pre></div><h3 id="导入容器"><a href="#导入容器" class="header-anchor">#</a> 导入容器</h3> <p>可以将容器快照文件再导入成镜像</p> <div class="language- extra-class"><pre class="language-text"><code>cat docker/ubuntu.tar | docker import - test/ubuntu:v1     从本地导入
+docker import http://example.com/exampleimage.tgz example/imagerepo    通过url导入
+</code></pre></div><h3 id="保存镜像"><a href="#保存镜像" class="header-anchor">#</a> 保存镜像</h3> <div class="language- extra-class"><pre class="language-text"><code>docker save 1e560fca3906 &gt; ubuntu.tar
+//组合保存
+
+</code></pre></div><h3 id="载入镜像"><a href="#载入镜像" class="header-anchor">#</a> 载入镜像</h3> <div class="language- extra-class"><pre class="language-text"><code>docker load &lt; ubuntu.tar
+</code></pre></div><h3 id="容器互联"><a href="#容器互联" class="header-anchor">#</a> 容器互联</h3> <p>创建一个新的docker网络</p> <div class="language- extra-class"><pre class="language-text"><code>[root@VM-0-9-centos ~]## docker network create -d bridge test-net
+</code></pre></div><p>展示所有的docker网络</p> <div class="language- extra-class"><pre class="language-text"><code>[root@VM-0-9-centos ~]## docker network ls
+NETWORK ID          NAME                DRIVER              SCOPE
+5c7a4fccca19        bridge              bridge              local
+b49022ce4237        host                host                local
+60f9070b901a        none                null                local
+ccd7f95f8b63        test-net            bridge              local
+</code></pre></div><p>创建容器时指明 –network</p> <div class="language- extra-class"><pre class="language-text"><code>[root@VM-0-9-centos ~]## docker run -itd --name net1 --network test-net net/ubuntu:v1 /bin/bash
+[root@VM-0-9-centos ~]## docker run -itd --name net2 --network test-net net/ubuntu:v1 /bin/bash
+</code></pre></div><p>这样同一个docker网络内的容器可以互联</p> <h2 id="镜像操作"><a href="#镜像操作" class="header-anchor">#</a> 镜像操作</h2> <h3 id="镜像更新"><a href="#镜像更新" class="header-anchor">#</a> 镜像更新</h3> <p>首先需要启动一个容器,然后进入容器内</p> <p>执行 apt-get update 更新容器, 退出容器,可以提交容器副本,commit后便会有一个新的镜像</p> <div class="language- extra-class"><pre class="language-text"><code>[root@VM-0-9-centos ~]## docker commit -m=&quot;test update&quot; -a=&quot;test&quot; ae735c1134de test/ubuntu:v2
+sha256:b52d4b375f0e765c8ee18dee0c2be0e6d49fd0b60d8b179cf42204071b90f244
+
+-m: 提交的描述信息
+
+-a: 指定镜像作者
+
+e218edb10161：容器 ID
+
+runoob/ubuntu:v2: 指定要创建的目标镜像名
+</code></pre></div><h3 id="镜像创建"><a href="#镜像创建" class="header-anchor">#</a> 镜像创建</h3> <p>创建一个 Dockerfile 文件，其中包含一组指令来告诉 Docker 如何构建我们的镜像</p> <div class="language- extra-class"><pre class="language-text"><code>[root@VM-0-9-centos ~]## vim Dockerfile
+runoob@runoob:~$ cat Dockerfile
+FROM    centos:6.7
+MAINTAINER      Fisher &quot;fisher@sudops.com&quot;
+
+RUN     /bin/echo 'root:123456' |chpasswd
+RUN     useradd runoob
+RUN     /bin/echo 'runoob:123456' |chpasswd
+RUN     /bin/echo -e &quot;LANG=\&quot;en_US.UTF-8\&quot;&quot; &gt;/etc/default/local
+EXPOSE  22
+EXPOSE  80
+CMD     /usr/sbin/sshd -D
+</code></pre></div><p>第一条FROM，指定使用哪个镜像源</p> <p>RUN 指令告诉docker 在镜像内执行命令，安装了什么。。。</p> <p>docker build 进行构建</p> <div class="language- extra-class"><pre class="language-text"><code>[root@VM-0-9-centos ~]## docker build -t zsk/centos:6.7 .
+
+-t ：指定要创建的目标镜像名
+
+. ：Dockerfile 文件所在目录，可以指定Dockerfile 的绝对路径
+</code></pre></div><h3 id="更新镜像tag"><a href="#更新镜像tag" class="header-anchor">#</a> 更新镜像tag</h3> <p>会复制一个镜像,不是覆盖原有</p> <div class="language- extra-class"><pre class="language-text"><code>[root@VM-0-9-centos ~]## docker tag 633c4e471363 zsk/centos:dev
+</code></pre></div><h2 id="安装实例"><a href="#安装实例" class="header-anchor">#</a> 安装实例</h2> <h3 id="安装es和kibana"><a href="#安装es和kibana" class="header-anchor">#</a> 安装ES和kibana</h3> <h4 id="下载"><a href="#下载" class="header-anchor">#</a> 下载</h4> <div class="language- extra-class"><pre class="language-text"><code>docker pull elasticsearch:7.4.2
+docker pull kibana:7.4.2
+</code></pre></div><h4 id="安装"><a href="#安装" class="header-anchor">#</a> 安装</h4> <h4 id="es"><a href="#es" class="header-anchor">#</a> ES</h4> <p>在主机创建外挂目录:</p> <div class="language- extra-class"><pre class="language-text"><code>mkdir -p /mydata/elasticsearch/config
+mkdir -p /mydata/elasticsearch/data
+echo &quot;http.host: 0.0.0.0&quot;&gt;&gt;/mydata/elasticsearch/config/elasticsearch.yml
+chmod -R 777 /mydata/elasticsearch  //修改文件权限
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>docker run --name elasticsearch -p 9200:9200 -p 9300:9300 \
+-e &quot;discovery.type=single-node&quot; \
+-e ES_JAVA_OPTS=&quot;-Xms64m -Xmx256m&quot; \
+-v /mydata/elasticsearch/config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml \
+-v /mydata/elasticsearch/data:/usr/share/elasticsearch/data \
+-v /mydata/elasticsearch/plugins:/usr/share/elasticsearch/plugins \
+-d elasticsearch:7.4.2
+</code></pre></div><h4 id="kibana"><a href="#kibana" class="header-anchor">#</a> kibana</h4> <div class="language- extra-class"><pre class="language-text"><code>docker run --name kibana -e ELASTICSEARCH_HOSTS=http://119.45.176.143:9200 -p 5601:5601 \
+-d kibana:7.4.2
+</code></pre></div><h3 id="安装nginx"><a href="#安装nginx" class="header-anchor">#</a> 安装nginx</h3> <p>现在mydata下准备一套conf (安装一套nginx骗取他的文件在清理掉, docker container cp nginx:/etc/nginx .)</p> <div class="language- extra-class"><pre class="language-text"><code>docker run -p 80:80 --name bginx \
+-v /mydata/nginx/html:/usr/share/nginx/html \
+-v /mydata/nginx/logs:/var/log/nginx \
+-v /mydata/nginx/conf:/etc/nginx \
+-d nginx:1.10
+</code></pre></div><h3 id="安装rocketmq"><a href="#安装rocketmq" class="header-anchor">#</a> 安装RocketMQ</h3> <p><strong>启动NameServer：</strong></p> <div class="language- extra-class"><pre class="language-text"><code>docker run -d -p 9876:9876 --name rmqserver  foxiswho/rocketmq:server-4.5.1
+</code></pre></div><p><strong>启动broker：</strong></p> <div class="language- extra-class"><pre class="language-text"><code>docker run -d -p 10911:10911 -p 10909:10909\
+ --name rmqbroker --link rmqserver:namesrv\
+ -e &quot;NAMESRV_ADDR=namesrv:9876&quot; -e &quot;JAVA_OPTS=-Duser.home=/opt&quot;\
+ -e &quot;JAVA_OPT_EXT=-server -Xms128m -Xmx128m&quot;\
+ foxiswho/rocketmq:broker-4.5.1
+</code></pre></div><p>Broker容器中默认的配置文件的路径为：</p> <p>安装后需要进入该文件添加 brokerIP1 = 192.168.53.201 不然默认是内网IP</p> <div class="language- extra-class"><pre class="language-text"><code>/etc/rocketmq/broker.conf
+</code></pre></div><p>也可以通过-v参数指定本机的配置文件：</p> <div class="language- extra-class"><pre class="language-text"><code>docker run -d -p 10911:10911 -p 10909:10909\ --name rmqbroker --link rmqserver:namesrv\ -e &quot;NAMESRV_ADDR=namesrv:9876&quot; -e &quot;JAVA_OPTS=-Duser.home=/opt&quot;\ -e &quot;JAVA_OPT_EXT=-server -Xms128m -Xmx128m&quot;\ -v /conf/broker.conf:/etc/rocketmq/broker.conf \ foxiswho/rocketmq:broker-4.5.1
+</code></pre></div><p>如果一切正常，NameServer和Broker一会儿就会安装好，为了管理上的方便，rocketmq console也是必不可少的工具了，通过上面查询的方式找到需要启动的版本，启动方式如下：</p> <p>管理页面访问端口是 8180 ,可修改配置</p> <div class="language- extra-class"><pre class="language-text"><code>docker run -d --name rmqconsole -p 8180:8080 --link rmqserver:namesrv\ -e &quot;JAVA_OPTS=-Drocketmq.namesrv.addr=namesrv:9876\ -Dcom.rocketmq.sendMessageWithVIPChannel=false&quot;\ -t styletang/rocketmq-console-ng
+</code></pre></div><p>然后通过如下命令检查一下启动情况</p> <div class="language- extra-class"><pre class="language-text"><code>docker ps|grep rocketmq
+</code></pre></div><p>结果:</p></div></div> <!----> <div class="page-edit"><!----> <!----> <!----></div> <div class="page-nav-wapper"><!----> <!----></div></div> <!----></main></div> <div class="footer"><!----> 
+  Theme by
+  <a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank" title="本站主题">Vdoing</a> 
+    | Copyright © 2022-2022
+    <span>张大喵</span></div> <div class="buttons"><div title="返回顶部" class="button blur go-to-top iconfont icon-fanhuidingbu" style="display:none;"></div> <div title="去评论" class="button blur go-to-comment iconfont icon-pinglun" style="display:none;"></div> <div title="主题模式" class="button blur theme-mode-but iconfont icon-zhuti"><ul class="select-box" style="display:none;"><li class="iconfont icon-zidong">
+          跟随系统
+        </li><li class="iconfont icon-rijianmoshi">
+          浅色模式
+        </li><li class="iconfont icon-yejianmoshi">
+          深色模式
+        </li><li class="iconfont icon-yuedu">
+          阅读模式
+        </li></ul></div></div> <div class="body-bg" style="background:url() center center / cover no-repeat;opacity:0.5;"></div> <!----> <!----></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.9ac200f5.js" defer></script><script src="/assets/js/2.f08c2e94.js" defer></script><script src="/assets/js/68.46eb6539.js" defer></script>
+  </body>
+</html>
